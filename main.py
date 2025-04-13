@@ -15,7 +15,7 @@ def count_word_frequencies(url, word):
 
 def main():
     words_file = "words.txt"
-    url = "https://eng.mipt.ru/why-mipt/"
+    URL = "https://example.com"
 
     words_to_count = []
     with open(words_file, 'r') as file:
